@@ -1,0 +1,58 @@
+body{
+	font-family:'Microsoft YaHei UI', 'Microsoft YaHei', SimSun, 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
+}
+
+li{list-style:none; margin-top: 5px;}
+
+.content {
+	text-align: center;
+	margin: 0px 200px 0px 200px;
+}
+
+.sp {
+	margin-right: 435px;
+}
+
+#address {
+	margin-right: 70px;
+	width: 440px;
+}
+
+#msg {
+	margin-right: 70px;
+}
+
+.clickButton {
+	margin-top: 10px;
+}
+
+.clickButton input[type="button"] {
+	height:26px; 
+	width:65px; 
+	text-decoration:none; 
+	background: #2E73D6; 
+	color: #fff; 
+	font-size: 13px; 
+	padding: 5px; 
+	border: 0px;
+	margin-right: 10px;
+}
+
+.info {
+	margin-top: 20px;
+}
+
+.info table{
+	margin: 0px auto;
+}
+
+.info table {
+	margin: 10px 0pt 15px;
+	width: 100%;
+	border-spacing: 0;
+	text-align: center;
+}
+
+.info table tbody td {
+	border-top: 1px solid #00a0cf;
+}

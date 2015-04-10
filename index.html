@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<title>WEB SOCKET</title>
+		<meta charset="UTF-8">
+
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<script type="text/javascript" src="js/websocket.js"></script>
+	</head>
+
+	<body>
+		<div class="content">
+			<div>
+				<h3>WEB SOCKET CLIENT</h3>
+			</div>
+
+			<div>
+				<ul>
+					<li><span class="sp">Address : </span></li> <!--ws://127.0.0.1:8080/WebSocketServer/smsg-->
+					<li><input type="text" id="address" placeholder="ws://127.0.0.1:8080/WebSocketServer"></li>
+					<li><span class="sp">Message :</span></li>
+					<li><textarea rows="5" cols="60" id="msg"></textarea></li>
+				</ul>
+			</div>
+
+			<div class="clickButton">
+				<input type="button" value="Open"  onclick="connection()">
+				<input type="button" value="Send"  onclick="sendmsg()">
+				<input type="button" value="Close" onclick="closeConnection()">
+			</div>
+
+			<div class="info">
+				<table id="infotable">
+					<tbody>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</body>
+
+</html>  
